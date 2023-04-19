@@ -7,6 +7,7 @@ from twitter_scraper import twitter_scraper
 analyzer = SentimentIntensityAnalyzer()
 
 
+# create sentiment model
 def sentiment_model(query, limit):
     # gather twitter data
     player_tweets = twitter_scraper(query, limit)
@@ -23,10 +24,12 @@ def sentiment_model(query, limit):
 
         return sent_score
 
+    # assign sentiment score of tweet
     def predict_sentiment(tweet_content):
         sent_score = analyzer.polarity_scores(tweet_content)
         return score_output(sent_score)
 
+    # add sentiment score column to dataframe
     player_tweets["Sentiment Score"] = player_tweets["renderedContent"].apply(
         predict_sentiment
     )
