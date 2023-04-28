@@ -34,7 +34,7 @@ To perfrom the sentiment analysis I could either use text blob or VADER. As we a
 *   a positive sentiment, compound ≥ 0.05
 *   a negative sentiment, compound ≤ -0.05
 *   a neutral sentiment, the compound is between [-0.05, 0.05]          
-            
+
 The scores were converted to the texts "positive", "negative", "ueutral".
 The percentage of each positive/neutral and negative scores for each player was computed in tableu. Here are the results for each player:           
 *   **Aaron Judge:** 81.43% positive/neutral, 18.57% negative
@@ -45,6 +45,6 @@ The percentage of each positive/neutral and negative scores for each player was 
 
 ## Productionization
 I deployed the model results in a tableau dashboard along with various visualizations and KPIs like the weekly trends of positive, negative and neutral tweets for each player and number of tweets during each day of the week. A screenshot of the dashboard can be seen below.           
-<img src="https://github.com/LiamMcCarrick/Yankees-Sentiment-Analysis/blob/main/Dashboard_Screenshot.PNG" width="500" height="300">         
+<img src="https://github.com/LiamMcCarrick/Yankees-Sentiment-Analysis/blob/main/Dashboard_Screenshot.PNG" width="700" height="500">         
 The dashboard can be interacted with at the following link :            
 https://public.tableau.com/app/profile/william.mccarrick/viz/YankeePlayerSentimentDashboard/YankeesPlayerSentimentDashboard
