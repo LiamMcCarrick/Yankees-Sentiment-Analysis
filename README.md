@@ -45,6 +45,6 @@ The percentage of each positive/neutral and negative scores for each player was 
 
 ## Productionization
 I deployed the model results in a tableau dashboard along with various visualizations and KPIs like the weekly trends of positive, negative and neutral tweets for each player and number of tweets during each day of the week. A screenshot of the dashboard can be seen below.           
-<img src="https://github.com/LiamMcCarrick/Yankees-Sentiment-Analysis/blob/main/Dashboard_Screenshot.PNG" width="700" height="500">         
+<img src="https://github.com/LiamMcCarrick/Yankees-Sentiment-Analysis/blob/main/Dashboard_Screenshot.PNG" width="600" height="450">         
 The dashboard can be interacted with at the following link :            
 https://public.tableau.com/app/profile/william.mccarrick/viz/YankeePlayerSentimentDashboard/YankeesPlayerSentimentDashboard
